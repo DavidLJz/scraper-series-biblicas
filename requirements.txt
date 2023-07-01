@@ -1,0 +1,3 @@
+selenium==4.9.1
+python-decouple==3.6
+gdown==4.7.1
