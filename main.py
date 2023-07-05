@@ -56,7 +56,7 @@ if __name__ == '__main__':
         id = url.split('/')[5]
         
         try:
-            fname = gdown_download(id=id, output=args.output, quiet=False)
+            fname = gdown_download(id=id, output=output, quiet=False)
 
             print(f'Saved: {fname}')
             quit()
